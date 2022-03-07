@@ -34,3 +34,7 @@ const String kNameNullError = "Introduzca su nombre";
 const String klastnameNullError = "Introduzca su apellido";
 const String kPhoneNumberNullError = "Introduzca su numero de telefono";
 const String kAddressNullError = "Introduzca su dirección";
+const String kDateBirthNullError = "Introduzca su fecha de nacimiento";
+const String kBirthPlacethNullError = "Introduzca lugar de nacimiento";
+const String kTravelDestinationhNullError = "Introduzca el destino";
+const String kDaysTriphNullError = "Introduzca cantidad de dias";

@@ -17,14 +17,16 @@ class SizeConfig {
 
 //get the proportionate height as per screen size
 double getProportionatedScreenHeight(double inputHeight) {
-  double screenHeight = SizeConfig.screenHeight;
+  //double screenHeight = SizeConfig.screenHeight;
   //812 is the layout heigth that designer use
-  return (inputHeight / 812.0) * screenHeight;
+  return inputHeight;
+ // return (inputHeight / 812.0) * screenHeight;
 }
 
 //get the proportionate width as per screen size
 double getProportionatedScreenWidth(double inputWidth) {
-  double screenWidth = SizeConfig.screenWidth;
+ // double screenWidth = SizeConfig.screenWidth;
   //812 is the layout width that designer use
-  return (inputWidth / 812.0) * screenWidth;
+  return inputWidth;
+  //return (inputWidth / 812.0) * screenWidth;
 }
